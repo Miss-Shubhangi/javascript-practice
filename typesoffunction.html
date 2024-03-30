@@ -6,6 +6,47 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        document.write(`<h1> output is written in console ....kindly please check console.</h1>`)
+        
+    console.log("Argument and return");
+    function saksh(a,b){
+        const c=a+b;
+        return c;
+    }   
+    const shubz=saksh(2,3);
+    console.log(`addition of two num 2 and 3 is ${shubz}`);
+
+
+    console.log("\n\n")
+   console.log(`No Argument but Return `)
+    let username="Shubhangi"
+    function greet(){
+        let greeting=console.log(`Have a nice day ${username}`)
+        return greeting;
+    }
+    greet()
+    console.log("\n\n")
+
+
+    console.log(` Argument but no Return `)
+    function mult(a,b){
+        const c=a*b;
+        console.log(`multiplication of two num ${a} and ${b} is ${c}`);
+       
+    }   
+    mult(2,3);
     
+    
+    console.log("\n\n")
+    console.log(`No Argument and No Return `)
+    let a=1;
+    let b=20;
+    function normal(){
+        let d=a+b+b;
+        console.log(`1 + 20 + 20 = ${d}`)
+    }
+   normal();
+</script>
 </body>
 </html>
